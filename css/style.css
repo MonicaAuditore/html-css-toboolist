@@ -1,3 +1,173 @@
+/* SELETTORE UNIVERSALE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
-  background-color: aqua;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(238, 238, 238);
+}
+
+/* PRIMA HEADER */
+header {
+  padding: 10px;
+  background-color: white;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+.text-logo {
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+/* CONTENUTO GENERALE */
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+/* SECONDO HEADER */
+.container_header_button {
+  padding: 15px 40px;
+}
+
+.container_header--btbBlu {
+  padding: 6px;
+  background-color: #47adf1;
+  border: none;
+  border-radius: 7px;
+  color: white;
+}
+
+.container_header--btbWhite {
+  padding: 6px;
+  background-color: #fff;
+  border-color: #d5d9dd;
+  border-radius: 7px;
+  color: #b3b3b3;
+}
+
+hr.container_header_divisore {
+  height: 2px;
+  background-color: #eeeeee;
+  border: none;
+}
+
+/* INIZIO SEZIONE DEI TASK */
+.allSectionTask {
+  padding-left: 40px;
+  padding-bottom: 50px;
+}
+
+.sectionTask {
+  padding-top: 30px;
+}
+
+.containerNewTask {
+  padding-top: 30px;
+}
+
+.arrowSpace {
+  padding-left: 4px;
+}
+
+.lista {
+  list-style: none;
+  padding-top: 15px;
+}
+
+/* STILE DELLE LISTE */
+li {
+  margin-top: 9px;
+}
+
+.cerchio-check {
+  display: inline-block;
+  border: 1px solid green;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-left: 3px;
+  color: green;
+  line-height: 20px;
+  margin-right: 8px;
+}
+
+.cerchio-x {
+  display: inline-block;
+  border: 1px solid rgb(201, 0, 0);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-left: 5px;
+  color: rgb(201, 0, 0);
+  line-height: 20px;
+  margin-right: 8px;
+}
+
+.fake_btn_generic {
+  height: 25px;
+  width: 63px;
+  display: inline-block;
+  border-radius: 13px;
+  vertical-align: middle;
+  color: white;
+  position: relative;
+}
+
+/* STILE DEI DIVERSI BOTTONI */
+.btn-blu {
+  background-color: #45abe9;
+}
+
+.btn-violet {
+  background-color: #9c72e4;
+  width: 73px;
+}
+
+.btn-green {
+  background-color: #64c0a9;
+  width: 84px;
+}
+
+.btn-yellow {
+  background-color: #f29e33;
+  width: 54px;
+}
+
+.btn-lime {
+  background-color: #b0c926;
+  width: 49px;
+}
+
+.btn-pink {
+  background-color: #d863a0;
+}
+
+.label {
+  font-size: 11px;
+  position: absolute;
+  top: 25%;
+  left: 19%;
+}
+
+/* INSERIMENTO DELLE ICONE DAVANTI ALLA LISTA */
+.cerchio-check::before {
+  content: "\2713";
+}
+
+.cerchio-x::before {
+  content: "\00d7";
 }
