@@ -34,3 +34,29 @@ main {
   margin-top: 50px;
   border-radius: 5px;
 }
+
+.container_header_button {
+  padding: 15px 40px;
+}
+
+.container_header--btbBlu {
+  padding: 6px;
+  background-color: #47adf1;
+  border: none;
+  border-radius: 7px;
+  color: white;
+}
+
+.container_header--btbWhite {
+  padding: 6px;
+  background-color: #fff;
+  border-color: #d5d9dd;
+  border-radius: 7px;
+  color: #b3b3b3;
+}
+
+hr.container_header_divisore {
+  height: 2px;
+  background-color: #eeeeee;
+  border: none;
+}
