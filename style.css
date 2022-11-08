@@ -87,16 +87,28 @@ li {
   margin-top: 9px;
 }
 
-i.fa {
+.cerchio-check {
   display: inline-block;
-  border-radius: 60px;
   border: 1px solid green;
-  padding: 1px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-left: 3px;
   color: green;
 }
 
+.cerchio-x {
+  display: inline-block;
+  border: 1px solid rgb(201, 0, 0);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-left: 4px;
+  color: rgb(201, 0, 0);
+}
+
 .fake_btn_generic {
-  height: 27px;
+  height: 25px;
   width: 63px;
   display: inline-block;
   border-radius: 13px;
