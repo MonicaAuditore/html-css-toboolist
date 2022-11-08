@@ -1,3 +1,4 @@
+/* SELETTORE UNIVERSALE */
 * {
   margin: 0;
   padding: 0;
@@ -9,14 +10,10 @@ html {
   background-color: rgb(238, 238, 238);
 }
 
+/* PRIMA HEADER */
 header {
   padding: 10px;
   background-color: white;
-}
-
-main {
-  width: 80%;
-  margin: 0 auto;
 }
 
 .logo {
@@ -29,12 +26,19 @@ main {
   font-weight: 900;
 }
 
+/* CONTENUTO GENERALE */
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .container {
   background-color: white;
   margin-top: 50px;
   border-radius: 5px;
 }
 
+/* SECONDO HEADER */
 .container_header_button {
   padding: 15px 40px;
 }
@@ -61,6 +65,7 @@ hr.container_header_divisore {
   border: none;
 }
 
+/* INIZIO SEZIONE DEI TASK */
 .allSectionTask {
   padding-left: 40px;
   padding-bottom: 50px;
@@ -83,6 +88,7 @@ hr.container_header_divisore {
   padding-top: 15px;
 }
 
+/* STILE DELLE LISTE */
 li {
   margin-top: 9px;
 }
@@ -95,6 +101,8 @@ li {
   border-radius: 50%;
   padding-left: 3px;
   color: green;
+  line-height: 20px;
+  margin-right: 8px;
 }
 
 .cerchio-x {
@@ -103,8 +111,10 @@ li {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  padding-left: 4px;
+  padding-left: 5px;
   color: rgb(201, 0, 0);
+  line-height: 20px;
+  margin-right: 8px;
 }
 
 .fake_btn_generic {
@@ -117,6 +127,7 @@ li {
   position: relative;
 }
 
+/* STILE DEI DIVERSI BOTTONI */
 .btn-blu {
   background-color: #45abe9;
 }
@@ -150,4 +161,13 @@ li {
   position: absolute;
   top: 25%;
   left: 19%;
+}
+
+/* INSERIMENTO DELLE ICONE DAVANTI ALLA LISTA */
+.cerchio-check::before {
+  content: "\2713";
+}
+
+.cerchio-x::before {
+  content: "\00d7";
 }
