@@ -87,6 +87,14 @@ li {
   margin-top: 9px;
 }
 
+i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  border: 1px solid green;
+  padding: 1px;
+  color: green;
+}
+
 .fake_btn_generic {
   height: 27px;
   width: 63px;
