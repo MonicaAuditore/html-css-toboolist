@@ -63,6 +63,7 @@ hr.container_header_divisore {
 
 .allSectionTask {
   padding-left: 40px;
+  padding-bottom: 50px;
 }
 
 .sectionTask {
@@ -117,9 +118,10 @@ li {
 
 .btn-lime {
   background-color: #b0c926;
+  width: 49px;
 }
 
-btn-pink {
+.btn-pink {
   background-color: #d863a0;
 }
 
