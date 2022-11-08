@@ -60,3 +60,44 @@ hr.container_header_divisore {
   background-color: #eeeeee;
   border: none;
 }
+
+.allSectionTask {
+  padding-left: 40px;
+}
+
+.sectionTask {
+  padding-top: 30px;
+}
+
+.containerNewTask {
+  padding-top: 30px;
+}
+
+.arrowSpace {
+  padding-left: 4px;
+}
+
+.lista {
+  list-style: none;
+}
+
+.fake_btn_generic {
+  height: 27px;
+  width: 63px;
+  display: inline-block;
+  border-radius: 13px;
+  vertical-align: middle;
+  color: white;
+  position: relative;
+}
+
+.btn-blu {
+  background-color: #45abe9;
+}
+
+.label {
+  font-size: 11px;
+  position: absolute;
+  top: 25%;
+  left: 19%;
+}
